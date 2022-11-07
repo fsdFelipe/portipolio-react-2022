@@ -1,23 +1,24 @@
-import { AiFillGithub } from "react-icons/ai";
+import logo from "../assets/github.png";
+
 export default [
   {
     name: `CRUD com java springboot`,
-    image: <AiFillGithub />,
+    image: logo,
     link: `https://github.com/fsdFelipe/CRUD-Springboot`
   },
   {
     name: `CRUD Nodejs`,
-    image: <AiFillGithub />,
+    image: logo,
     link: `https://github.com/fsdFelipe/CRUD-User_nodeJS`
   },
   {
     name: `Em progresso ...`,
-    image: <AiFillGithub />,
+    image: logo,
     link: `....`
   },
   {
     name: `Em progresso ...`,
-    image: <AiFillGithub />,
+    image: logo,
     link: `...`
   }
 ];
