@@ -3,6 +3,7 @@ import Header from "../src/components/Header.jsx";
 import Navbar from "../src/components/Navbar.jsx";
 import Sobre from "../src/components/Sobre.jsx";
 import Portifolio from "../src/components/Portifolio.jsx";
+import Skills from "../src/components/Skills";
 import React, { useState } from "react";
 
 export default function App() {
