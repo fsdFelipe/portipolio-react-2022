@@ -3,7 +3,7 @@ import AboutStats from "../Settings/SobreStats.jsx";
 import Settings from "../Settings/Settings.jsx";
 import "../Styles/Sobre.css";
 
-export default function Sobre({ page, setPage }) {
+export default function Sobre() {
   return (
     <div className="about container">
       <h2>About Me</h2>

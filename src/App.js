@@ -4,6 +4,7 @@ import Navbar from "../src/components/Navbar.jsx";
 import Sobre from "../src/components/Sobre.jsx";
 import Portifolio from "../src/components/Portifolio.jsx";
 import Skills from "../src/components/Skills";
+import Servicos from "../src/components/Servicos";
 import React, { useState } from "react";
 
 export default function App() {
@@ -15,7 +16,7 @@ export default function App() {
       {page === "Sobre" && <Sobre />}
       {page === "Portifolio" && <Portifolio />}
       {page === "Skills" && <Skills />}
-      {page === "Services" && <Services />}
+      {page === "Servicos" && <Servicos />}
       {page === "Contact US" && <ContactUS />}
     </>
   );
