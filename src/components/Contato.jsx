@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/Contato.css";
 
-export default function Servicos() {
+export default function Contato() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -15,7 +15,7 @@ export default function Servicos() {
 
   return (
     <div className="contact container">
-      <h1>Contact Us</h1>
+      <h1>Contato</h1>
       <form onSubmit={handlesubmit}>
         <label>Nome:</label>
         <input
