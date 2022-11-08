@@ -5,6 +5,7 @@ import Sobre from "../src/components/Sobre.jsx";
 import Portifolio from "../src/components/Portifolio.jsx";
 import Skills from "../src/components/Skills";
 import Servicos from "../src/components/Servicos";
+import Contato from "../src/components/Contato";
 import React, { useState } from "react";
 
 export default function App() {
@@ -17,7 +18,7 @@ export default function App() {
       {page === "Portifolio" && <Portifolio />}
       {page === "Skills" && <Skills />}
       {page === "Servicos" && <Servicos />}
-      {page === "Contact US" && <ContactUS />}
+      {page === "Contato" && <Contato />}
     </>
   );
 }

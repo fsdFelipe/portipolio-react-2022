@@ -1,5 +1,5 @@
 import React from "react";
-import ServicosData from "../Settings/ServicosData";
+import ServicosData from "../Settings/ServicosData.jsx";
 import "../Styles/Servicos.css";
 
 export default function Servicos() {
